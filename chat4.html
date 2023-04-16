@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat With User - Sponge Talk</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>03:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fa-solid fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">다람이</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            2023년 4월 15일 토요일
+        </div>
+        <div class="message-row">
+            <img src="https://th.bing.com/th/id/OIP.ADDWPWPUbwu2RZWHrqUBqgAAAA?w=153&h=214&c=7&r=0&o=5&pid=1.7" />
+            <div class="message-row__content">
+                <span class="message__author">다람이</span>
+                <div class="message__info">
+                    <span class="message__bubble">어머?? 토끼잖아?? 바다엔 어떻게 들어왔어??</span>
+                    <span class="message__time">15:20</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">난 경기도에서 온 현란한일신이야!</span>
+                    <span class="message__time">15:25</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://th.bing.com/th/id/OIP.ADDWPWPUbwu2RZWHrqUBqgAAAA?w=153&h=214&c=7&r=0&o=5&pid=1.7" />
+            <div class="message-row__content">
+                <span class="message__author">다람이</span>
+                <div class="message__info">
+                    <span class="message__bubble">내 고향은 텍사스야. 경기도면은... 외국에서 온 것같은데? 너 텍사스 아니??</span>
+                    <span class="message__time">15:29</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">텍사스는 안가봤는데 언젠간 가보고싶어!! 재미있을것같애!!</span>
+                    <span class="message__time">15:32</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://th.bing.com/th/id/OIP.ADDWPWPUbwu2RZWHrqUBqgAAAA?w=153&h=214&c=7&r=0&o=5&pid=1.7" />
+            <div class="message-row__content">
+                <span class="message__author">다람이</span>
+                <div class="message__info">
+                    <span class="message__bubble">귀여운 토끼로구나 모르는게 있으면 물어봐~~</span>
+                    <span class="message__time">15:33</span>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="메세지를 입력하세요." />
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>화면이 너무 큽니다. ㅠㅠ</span>
+    </div>
+    <script src="https://kit.fontawesome.com/b4b24e10c2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

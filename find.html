@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Sponge Talk</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>03:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <header class="screen-header">
+        <h1 class="screen-header__title">찾기</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fa-solid fa-cog fa-lg"></i>
+                <div class="point">
+                </div>
+            </span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-qrcode"></i>
+                <span>QR 코드</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-address-book"></i>
+                <span>연락처 추가</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-fingerprint"></i>
+                <span>계정 추가</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-envelope"></i>
+                <span>초대</span>
+            </div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">추천 친구</h6>
+            <span>아직 추천 친구가 없습니다.</span>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>오픈 채팅</h4>
+                <span>오픈 채팅 홈으로 <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#SPONGEBOB</h5>
+                    <h6 class="open-chat__hashtags">#꿀잼#만화#스폰지밥</h6>
+                    <div class="open-post__members">
+                        <img
+                            src="https://th.bing.com/th/id/OIP.VMWEH_bAs7uUZE2SW8wXawHaHa?w=170&h=180&c=7&r=0&o=5&pid=1.7" />
+                        <span class="open-post__member-count">12323명</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">접근</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img
+                            src="https://th.bing.com/th/id/OIP.osX8rcxS2V4TtvULBE9zsQHaF7?w=217&h=180&c=7&r=0&o=5&pid=1.7" />
+                        <div class="open-post__heart-count"><i class="fa-solid fa-heart fa-xs"></i> <span>1358</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">6</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="no-mobile">
+        <span>화면이 너무 큽니다. ㅠㅠ</span>
+    </div>
+    <script src="https://kit.fontawesome.com/b4b24e10c2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

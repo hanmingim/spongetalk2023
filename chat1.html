@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat With User - Sponge Talk</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>03:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fa-solid fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">뚱이</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            2023년 4월 15일 토요일
+        </div>
+        <div class="message-row">
+            <img src="https://th.bing.com/th/id/OIP.R-gsgpr9ujFp5M-6vsLV-AHaHJ?w=206&h=199&c=7&r=0&o=5&pid=1.7" />
+            <div class="message-row__content">
+                <span class="message__author">뚱이</span>
+                <div class="message__info">
+                    <span class="message__bubble">응? 이 못생긴 물고기는 뭐지??</span>
+                    <span class="message__time">18:30</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">(하... 참자...) 난 경기도에서 왔어! 난 당연히 바다생물은 아니고 토끼야</span>
+                    <span class="message__time">18:35</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://th.bing.com/th/id/OIP.R-gsgpr9ujFp5M-6vsLV-AHaHJ?w=206&h=199&c=7&r=0&o=5&pid=1.7" />
+            <div class="message-row__content">
+                <span class="message__author">뚱이</span>
+                <div class="message__info">
+                    <span class="message__bubble">경기도?? 음식인가?? 한번 먹어봐야지 아음..!!!</span>
+                    <span class="message__time">18:37</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">(아 진짜 ㅡㅡ;; 한대 때릴까??) 이봐... 난 먹는게 아니라고...</span>
+                    <span class="message__time">18:39</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://th.bing.com/th/id/OIP.R-gsgpr9ujFp5M-6vsLV-AHaHJ?w=206&h=199&c=7&r=0&o=5&pid=1.7" />
+            <div class="message-row__content">
+                <span class="message__author">뚱이</span>
+                <div class="message__info">
+                    <span class="message__bubble">맛이 없네 뭐... 난 뚱이야! 너는... 알았다!! 당나귀지??!!</span>
+                    <span class="message__time">02:40</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">토끼야!!!! (결국 분노를 참지 못하고)</span>
+                    <span class="message__time">18:39</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="메세지를 입력하세요." />
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>화면이 너무 큽니다. ㅠㅠ</span>
+    </div>
+    <script src="https://kit.fontawesome.com/b4b24e10c2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
